@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfóilio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="barra-navegacao">
+        <h2>Logo</h2>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#sobre-mim"> Sobre mim </a></li>
+          <li><a href="#contato"> Contato </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="bem-vindo">
+        <div class="bem-vindo-itens">
+          <div class="bem-vindo-titulo">
+            <span>Desenvolvedor Full-stack</span>
+            <h1>Seu nome</h1>
+          </div>
+          <button>Ver Portfólio</button>
+        </div>
+        <div class="bem-vindo-image">
+          <img src="./public/images/imagem-1.svg" alt="Pessoa trabalhando" />
+        </div>
+      </section>
+
+      <section id="sobre-mim" class="sobre-mim">
+        <div class="sobre-mim-conteudo">
+          <div class="sobre-mim-imagem">
+            <img src="./public/images/imagem-5.svg" alt="Pessoa trabalhando" />
+          </div>
+          <div class="sobre-mim-texto">
+            <h2>Sobre mim</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptates, quidem, quod, quas quae quia quibusdam voluptate
+              perspiciatis quos doloribus quae quia quibusdam voluptate
+              perspiciatis quos doloribus
+            </p>
+
+            <a href="./public/bill-of-sale-template.pdf" download="cv_andre"
+              >Baixar Curriculum</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="projetos">
+        <div class="projetos-titulo">
+          <span>o que fiz até agora!</span>
+          <h2>Meus projetos</h2>
+        </div>
+        <div class="projetos-conteudo">
+          <div class="projetos-item">
+            <img src="./public/images/imagem-2.svg" alt="Projeto 1" />
+            <h3>Projeto 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptates, quidem, quod, quas quae quia quibusdam voluptate
+              perspiciatis quos doloribus
+            </p>
+            <a href="">Ver mais</a>
+          </div>
+          <div class="projetos-item">
+            <img src="./public/images/imagem-3.svg" alt="Projeto 1" />
+            <h3>Projeto 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptates, quidem, quod, quas quae quia quibusdam voluptate
+              perspiciatis quos doloribus
+            </p>
+            <a href="">Ver mais</a>
+          </div>
+          <div class="projetos-item">
+            <img src="./public/images/imagem-4.svg" alt="Projeto 1" />
+            <h3>Projeto 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptates, quidem, quod, quas quae quia quibusdam voluptate
+              perspiciatis quos doloribus
+            </p>
+            <a href="">Ver mais</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contato" id="contato">
+        <div class="contato-conteudo">
+          <div class="contato-titulo">
+            <h2>Contato</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptates, quidem, quod, quas quae quia quibusdam voluptate
+              perspiciatis quos doloribus
+            </p>
+          </div>
+          <div class="contato-formulario">
+            <form>
+              <div class="formulario-campo">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" placeholder="Digite seu nome" />
+              </div>
+
+              <div class="formulario-campo">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Digite seu e-mail"
+                />
+              </div>
+
+              <div class="formulario-campo">
+                <label for="assunto">Assunto</label>
+                <input
+                  type="text"
+                  id="assunto"
+                  placeholder="Digite o assunto da mensagem"
+                />
+              </div>
+
+              <div class="formulario-campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem"></textarea>
+              </div>
+
+              <input type="submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-conteudo">
+          <h2>Obrigado pela visita!</h2>
+          <ul>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
